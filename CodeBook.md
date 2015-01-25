@@ -2,7 +2,6 @@
  
 activityDesc             
 subject  
-	
 	The subject who performed the activity for each window sample. Its range is from 1 to 30.
 tBodyAccStdX             
 tBodyAccStdY            
