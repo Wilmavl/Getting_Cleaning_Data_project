@@ -1,4 +1,4 @@
-# Getting_Cleaning_Data_project
+# Getting_Cleaning_Data_Project
 repo for project assignment for Coursera Getting and Cleaning Data course
 This is the readme file in which I explain what I have done.
 
