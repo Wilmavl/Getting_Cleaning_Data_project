@@ -18,11 +18,20 @@ activityDesc
 
 subject  
 
-	The subject who performed the activity for each window sample. Its range is from 1 to 30.
+	The subject(person) who performed the activity for each window sample. Its range is from 1 to 30.
 
-tBodyAccStdX             
-tBodyAccStdY            
-tBodyAccStdZ             
+tBodyAccStdX 
+
+	Standard deviation of time signal of Body Acceleration in direction X 
+	
+tBodyAccStdY 
+
+	Standard deviation of time signal of Body Acceleration in direction Y
+
+tBodyAccStdZ
+
+	Standard deviation of time signal of Body Acceleration in direction Z
+	
 tGravityAccStdX          
 tGravityAccStdY          
 tGravityAccStdZ         
