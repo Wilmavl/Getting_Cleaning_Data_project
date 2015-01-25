@@ -1,7 +1,7 @@
  #DATA DICTIONARY - Human Activity Recognition Using Smartphones Dataset - Subset for Coursera Project
  
 activityDesc             
-subject  
+##subject  
 	The subject who performed the activity for each window sample. Its range is from 1 to 30.
 tBodyAccStdX             
 tBodyAccStdY            
