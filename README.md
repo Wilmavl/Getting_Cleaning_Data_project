@@ -18,22 +18,22 @@ The run_analys.R script completes the following steps:
     "./UCI HAR Dataset/test/subject_test.txt"
     "./UCI HAR Dataset/train/subject_train.txt"
     "./UCI HAR Dataset/activity_labels.txt"
-#1.2. cbind all the train data (subjectTrainData,YtrainData,XtrainData)
-#1.3. cbind all the test data (subjectTestData,YtestData,XtestData)
-#1.4. rbind testdata + traindata into 1 table
-#1.5. Assign column headings
+##1.2. cbind all the train data (subjectTrainData,YtrainData,XtrainData)
+##1.3. cbind all the test data (subjectTestData,YtestData,XtestData)
+##1.4. rbind testdata + traindata into 1 table
+##1.5. Assign column headings
 
-#2.only keep std and mean columns along with subject, activity
+#2. Only keep std and mean columns along with subject, activity
     I included the subject and activity columns, 
     and only retained any column where the heading includes "mean" or "std"
     I chose to include those that do not have "()" after the "mean" or "std", 
     as the instructions did not say that they had to be removed 
     - rather have too many columns than too few 
 
-#3.replace activity codes with descriptive names
-I made use of the package "plyr"
+#3. Replace activity codes with descriptive names
+    I made use of the package "plyr"
 
-#4.Tidy up variable names
+#4. Tidy up variable names
     - remove all "-" in the names as this is iilegal in R naming conventions
     - remove all "()" in the names as this is iilegal in R naming conventions
     - remove redundant text where "Body" is duplicated in a name
@@ -41,7 +41,7 @@ I made use of the package "plyr"
     - change "mean' to "Mean" to adhere to camelCase naming convention
     - Apart from that I did not change any names as I did not want to run the risk of changing meaning of names
 
-#5.Create tidy summary table
+#5. Create tidy summary table
     I made use of the package "dplyr"
     The tidy table provides a summarized mean for each measure per unique combination of subject and activity
     I checked some of the results manually in MS Excel to ensure that the calcualtions are correct
@@ -53,7 +53,7 @@ I made use of the package "plyr"
 #7. Print("successful!")  
     Included so I can know the script finished successfully :-)
     
-## Based upon the following publication:
+# Based upon the following publication:
     License:
     ========
     Use of this dataset in publications must be acknowledged by referencing the following publication [1] 
