@@ -54,7 +54,8 @@ The run_analysis.R script assumes that the working directory contains the script
     Included so I can know the script finished successfully :-)
     
 # This is the complete run_analysis.R script:
-###1. read all the data
+ #1. read all the data
+
 XtestData <- read.table("./UCI HAR Dataset/test/X_test.txt", header = FALSE)
 
 YtestData <- read.table("./UCI HAR Dataset/test/y_test.txt", header = FALSE)
