@@ -8,7 +8,7 @@ Note: In order to be able to run the script, the following packages have to be i
 
 The run_analysis.R script assumes that the working directory contains the script as well as the top level data folder called "UCI HAR Dataset". The data folder includes subfolders called "test" and "train" containing the actual source data files.
 
-#1. The run_analys.R script completes the following steps:
+#1. The run_analysis.R script completes the following steps:
 ##1.1 Read all the data
     "./UCI HAR Dataset/test/X_test.txt"
     "./UCI HAR Dataset/test/y_test.txt"
