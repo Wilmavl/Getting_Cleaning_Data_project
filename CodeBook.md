@@ -1,15 +1,25 @@
 #DATA DICTIONARY - Human Activity Recognition Using Smartphones Dataset - Subset for Coursera Project
  
 activityDesc 
+	
 	Activity performed by a subject
+	
 		WALKING
+	
 		WALKING_UPSTAIRS
+	
 		WALKING_DOWNSTAIRS
+	
 		SITTING
+	
 		STANDING
+	
 		LAYING
+
 subject  
+
 	The subject who performed the activity for each window sample. Its range is from 1 to 30.
+
 tBodyAccStdX             
 tBodyAccStdY            
 tBodyAccStdZ             
